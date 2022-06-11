@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CLAT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+img {
+  border-radius: 8px;
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:30px 5px">
+  <h1 class="w3-margin w3-jumbo">CLAT COACHING CENTRES</h1>
+  
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <div flex-order-sm="3" flex-order-xs="3" flex-sm="100" flex-xs="100" flex="45" layout="column" layout-align="start start" class="width100 coachingNameSection layout-align-start-start layout-column flex-xs-100 flex-sm-100 flex-order-xs-3 flex-order-sm-3 flex-45">
+        <h1 class="width100 pageTitleFont ng-binding">ABHYAAS LAWPREP </h1>
+        <div ng-if="coaching.type == 'Coaching'" class="baseFont ng-binding ng-scope">Bangalore</div>
+        <div layout="row" layout-align="start center" ng-if="coaching.eb_verified" class="ng-scope layout-align-start-center layout-row">
+            
+            <div>Verified by Exambazaar</div>
+        </div>
+        <div ng-if="(coaching.ebRating &amp;&amp; coaching.ebRating.rating)" layout="row" layout-xs="column" class="width100 elementRow ng-scope layout-xs-column layout-row">
+            <span class="marginR10" aria-label="Rated
+                    4.5 out of 5" md-labeled-by-tooltip="md-tooltip-10">
+                
+                <div class="smallstar custom ngrateit ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ngrateit-readonly ng-not-empty" ng-class="{'ngrateit-readonly': readOnly()}" ng-if="coaching.ebRating.rating > 0" ng-model="coaching.ebRating.rating" resetable="false" read-only="true" star-width="20" star-height="20" aria-invalid="false"><!-- ngIf: !readOnly() && resetable() --><!-- ngIf: !hide --><div ng-if="!hide" id="origin" class="ngrateit-rating ng-scope ngrateit-hashover" ng-class="{'ngrateit-hashover':!isTouch}"><!-- ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --></div><!-- end ngIf: !hide --></div><!-- end ngIf: coaching.ebRating.rating > 0 -->
+            </span>
+            <span ng-show="coaching.ebRating.rating" class="ng-binding" aria-hidden="false">
+                Rated 4.5 out of 5 on Exambazaar
+                
+            </span>
+        </div>
+    </div>
+      <h5 class="w3-padding-32">Abhyaas offers Abhyaas Law Prep (ALP), the Law Entrance Exam Coaching Module for students who wish to prepare and confidently crack the CLAT, AILET, SLAT, LSAT, MHCET, AP& TS-Lawcet and Other Major Law Entrance Exams in India. Abhyaas LawPrep (ALP) is that one master course which will help you look beyond the conventional choices with the command, and explore the brilliant options that students often overlook.Course fees offers with RS.49000 -RS.90000</h5>
+      <p class="w3-text-grey"> Abhyaas Reviews
+        
+        Faculty : 4.2
+        Competitive Environment : 3.5
+        Material : 4.5 
+        Infrastructure : 4.0
+        
+        Review by student: 
+        CLAT | 2021
+        Very good In term of everything,like great teaching faculty,Value for Money,good infrastructure,good support,Even </p>
+    </div>
+    
+    <img src="abhyaas.jpg">
+  </div>
+</div>
+<!--second grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <div flex-order-sm="3" flex-order-xs="3" flex-sm="100" flex-xs="100" flex="45" layout="column" layout-align="start start" class="width100 coachingNameSection layout-align-start-start layout-column flex-xs-100 flex-sm-100 flex-order-xs-3 flex-order-sm-3 flex-45">
+          <h1 class="width100 pageTitleFont ng-binding">SUCCESS MANTRA</h1>
+          <div ng-if="coaching.type == 'Coaching'" class="baseFont ng-binding ng-scope">Bangalore</div>
+          <div layout="row" layout-align="start center" ng-if="coaching.eb_verified" class="ng-scope layout-align-start-center layout-row">
+              
+              <div>Verified by Exambazaar</div>
+          </div>
+          ><div ng-if="(coaching.ebRating &amp;&amp; coaching.ebRating.rating)" layout="row" layout-xs="column" class="width100 elementRow ng-scope layout-xs-column layout-row">
+              <span class="marginR10" aria-label="Rated
+                      3.8 out of 5" md-labeled-by-tooltip="md-tooltip-10">
+                  
+                  <div class="smallstar custom ngrateit ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ngrateit-readonly ng-not-empty" ng-class="{'ngrateit-readonly': readOnly()}" ng-if="coaching.ebRating.rating > 0" ng-model="coaching.ebRating.rating" resetable="false" read-only="true" star-width="20" star-height="20" aria-invalid="false"><!-- ngIf: !readOnly() && resetable() --><!-- ngIf: !hide --><div ng-if="!hide" id="origin" class="ngrateit-rating ng-scope ngrateit-hashover" ng-class="{'ngrateit-hashover':!isTouch}"><!-- ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --></div><!-- end ngIf: !hide --></div><!-- end ngIf: coaching.ebRating.rating > 0 -->
+              </span>
+              <span ng-show="coaching.ebRating.rating" class="ng-binding" aria-hidden="false">
+                  Rated 3.8 out of 5 on Exambazaar
+                  
+              </span>
+          </div>
+      </div>
+        <h5 class="w3-padding-32">Success Mantra Academy saw the light of the day with the sole objective of offering quality coaching for various competitive exams in New Delhi, has been established in 2004. Founded by Anjali Sharma (Director), a known educationist with Mathematics as her core subject of interest, Success Mantra Academy today is joined by a team of passionate faculties & academicians who believe in delivering their competitive edge to the students. Established in 2004, Success Mantra Academy saw the light of the day with the sole objective of offering quality coaching for various competitive exams in Bangalore.Success Mantra offers Class Room courses with fees ranging starting from ₹19000 to ₹85000</h5>
+  
+        <p class="w3-text-grey"> Success Mantra Reviews
+          
+          Faculty : 4.3
+          Competitive Environment : 4.0
+          Material : 3.9 
+          Infrastructure : 4.5
+          
+          Review by student: 
+          CAT | 2021
+          Very good,  helped me sharpen my critical reasoning skills,great teaching faculty,good. </p>
+      </div>
+  
+      <img src="SM.jpg">
+    </div>
+  </div>
+ <!--third grid--> 
+ <div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <div flex-order-sm="3" flex-order-xs="3" flex-sm="100" flex-xs="100" flex="45" layout="column" layout-align="start start" class="width100 coachingNameSection layout-align-start-start layout-column flex-xs-100 flex-sm-100 flex-order-xs-3 flex-order-sm-3 flex-45">
+          <h1 class="width100 pageTitleFont ng-binding">IMS</h1>
+          <div ng-if="coaching.type == 'Coaching'" class="baseFont ng-binding ng-scope">Bangalore</div>
+          <div layout="row" layout-align="start center" ng-if="coaching.eb_verified" class="ng-scope layout-align-start-center layout-row">
+              
+              <div>Verified by Exambazaar</div>
+          </div>
+          <div ng-if="(coaching.ebRating &amp;&amp; coaching.ebRating.rating)" layout="row" layout-xs="column" class="width100 elementRow ng-scope layout-xs-column layout-row">
+              <span class="marginR10" aria-label="Rated
+                      3.8 out of 5" md-labeled-by-tooltip="md-tooltip-10">
+                  
+                  <div class="smallstar custom ngrateit ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ngrateit-readonly ng-not-empty" ng-class="{'ngrateit-readonly': readOnly()}" ng-if="coaching.ebRating.rating > 0" ng-model="coaching.ebRating.rating" resetable="false" read-only="true" star-width="20" star-height="20" aria-invalid="false"><!-- ngIf: !readOnly() && resetable() --><!-- ngIf: !hide --><div ng-if="!hide" id="origin" class="ngrateit-rating ng-scope ngrateit-hashover" ng-class="{'ngrateit-hashover':!isTouch}"><!-- ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --></div><!-- end ngIf: !hide --></div><!-- end ngIf: coaching.ebRating.rating > 0 -->
+              </span>
+              <span ng-show="coaching.ebRating.rating" class="ng-binding" aria-hidden="false">
+                  Rated 3.8 out of 5 on Exambazaar
+                  
+              </span>
+          </div>
+      </div>
+        <h5 class="w3-padding-32">IMS, Hyderabad, Begumpet provides Coaching for CAT, GMAT, SNAP, XAT, SAT, CMAT, MAT in Hyderabad and across 45 centres in India. It also has its presence in Mumbai, Bangalore, Delhi, Pune, Kolkata and 40 more cities in India. IMS is best known for its CAT Coaching and Ranks #3 in CAT Coachings in Hyderabad. For a better coaching experience, IMS also provides Printed Notes, Test Series, Distance Learning Program, Doubt Sessions, Periodic Performance Tests, Online Lectures, Classrooms and Counselling Sessions. IMS offers Class Room courses with fees ranging starting from ₹20000 to ₹95000</h5>
+  
+        <p class="w3-text-grey"> IMS Reviews
+          
+          Faculty : 3.8
+          Competitive Environment : 4.5
+          Material : 3.5 
+          Infrastructure : 3.5
+          
+          Review by student: 
+          CAT | 2021
+          Very good In term of everything,like great teaching faculty,Value for Money,good infrastructure,good support,Even </p>
+      </div>
+      
+      <img src="img.png">
+    </div>
+  </div>
