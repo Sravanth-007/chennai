@@ -1,1 +1,68 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>NDA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+img {
+  border-radius: 8px;
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:30px 5px">
+  <h1 class="w3-margin w3-jumbo">NAT COACHING CENTERS</h1>
+  
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <div flex-order-sm="3" flex-order-xs="3" flex-sm="100" flex-xs="100" flex="45" layout="column" layout-align="start start" class="width100 coachingNameSection layout-align-start-start layout-column flex-xs-100 flex-sm-100 flex-order-xs-3 flex-order-sm-3 flex-45">
+        <h1 class="width100 pageTitleFont ng-binding">Gravity </h1>
+        <div ng-if="coaching.type == 'Coaching'" class="baseFont ng-binding ng-scope">Chennai</div>
+        <div layout="row" layout-align="start center" ng-if="coaching.eb_verified" class="ng-scope layout-align-start-center layout-row">
+            
+            <div>Verified by Exambazaar</div>
+        </div>
+        <div ng-if="(coaching.ebRating &amp;&amp; coaching.ebRating.rating)" layout="row" layout-xs="column" class="width100 elementRow ng-scope layout-xs-column layout-row">
+            <span class="marginR10" aria-label="Rated
+                    4.5 out of 5" md-labeled-by-tooltip="md-tooltip-10">
+                
+                <div class="smallstar custom ngrateit ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ngrateit-readonly ng-not-empty" ng-class="{'ngrateit-readonly': readOnly()}" ng-if="coaching.ebRating.rating > 0" ng-model="coaching.ebRating.rating" resetable="false" read-only="true" star-width="20" star-height="20" aria-invalid="false"><!-- ngIf: !readOnly() && resetable() --><!-- ngIf: !hide --><div ng-if="!hide" id="origin" class="ngrateit-rating ng-scope ngrateit-hashover" ng-class="{'ngrateit-hashover':!isTouch}"><!-- ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope ngrateit-selected" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: 0px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --><span class="ngrateit-star ngrateit-bg-star ng-scope" ng-repeat="i in getStartParts() track by $index" ng-class="{'ngrateit-selected': isSelected($index) }" ng-click="setValue($index)" ng-style="{'width': starPartWidth+'px', 'height':starHeight+'px', 'background-position': getStarOffset($index)+'px 0'}" role="button" tabindex="0" style="width: 10px; height: 20px; background-position: -10px 0px;"></span><!-- end ngRepeat: i in getStartParts() track by $index --></div><!-- end ngIf: !hide --></div><!-- end ngIf: coaching.ebRating.rating > 0 -->
+            </span>
+            <span ng-show="coaching.ebRating.rating" class="ng-binding" aria-hidden="false">
+                Rated 4.5 out of 5 on Exambazaar
+                
+            </span>
+        </div>
+    </div>
+      <h5 class="w3-padding-32">Gravity offers  NAT Prep , the NDA Entrance Exam Coaching Module for students who wish to prepare and confidently crack the NDA, AILET, SLAT, LSAT, MHCET, AP& TS-Lawcet and Other Major NDA Entrance Exams in India. Gravity prep is that one master course which will help you look beyond the conventional choices with the command, and explore the brilliant options that students often overlook.Course fees offers with RS.49000 -RS.90000</h5>
+      <p class="w3-text-grey"> Gravity Reviews
+        
+        Faculty : 4.2
+        Competitive Environment : 3.5
+        Material : 4.5 
+        Infrastructure : 4.0
+        
+        Review by student: 
+        NDA | 2021
+        Very good In term of everything,like great teaching faculty,Value for Money,good infrastructure,good support,Even </p>
+    </div>
+    
+    <img src="https://gravityinstitute.co.in/wp-content/uploads/2019/03/Why-Do-We-Need-to-Take-a-Coaching-for-NDA-Exam-1.jpg">
+  </div>
+</div>
+
+
